@@ -12,7 +12,7 @@
     "url": "https://github.com/bryanjacquot/theme-designer-capstone.git"
   },
   "dependencies": {
-    "grommet": "0.5.3",
+    "grommet": "https://github.com/grommet/grommet/tarball/stable",
     "gulp": "^3.9.0"
   },
   "engines": {
