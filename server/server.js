@@ -24,7 +24,6 @@ var webpackRequire = require('enhanced-require')(module, {
 });
 
 var server = express();
-var App = React.createFactory(webpackRequire('../src/js/components/Home'));
 
 var theme = sass.renderSync({
   file: 'node_modules/grommet/scss/vanilla/index.scss',
@@ -44,12 +43,6 @@ app.use(morgan('tiny'));
 app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
-
-  // server side rendering with react + webpack
-  //var html = ReactDOMServer.renderToString(App({}));
-  //res.render('index.ejs', {appBody: html, styleContent: '<style>' + theme.css + '</style>'});
-
-  //for single page app uncomment following line (remember to comment the 2 lines above)
   res.sendFile(path.resolve(path.join(__dirname, '/../dist/index.html')));
 });
 
