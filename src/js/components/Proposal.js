@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Section from 'grommet/components/Section';
 import Anchor from 'grommet/components/Anchor';
+import Pdf from 'grommet/components/icons/base/DocumentPdf';
 
 export default class Proposal extends Component {
 
@@ -22,7 +23,7 @@ export default class Proposal extends Component {
           and went to a lower-fidelity prototyping technique.  This allowed me to deliver the
           prototype on time with ample content to collect feedback on the design.
         </p>
-        <Anchor href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M1-JacquotBryan.pdf" label="Proposal Document (pdf)" primary={true} />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M1-JacquotBryan.pdf" label="Proposal Document" primary={true} />
       </Section>
     );
   }

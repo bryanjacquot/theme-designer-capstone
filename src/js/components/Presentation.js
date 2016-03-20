@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Section from 'grommet/components/Section';
 import Anchor from 'grommet/components/Anchor';
+import Pdf from 'grommet/components/icons/base/DocumentPdf';
 
 export default class Presentation extends Component {
 
@@ -21,7 +22,7 @@ export default class Presentation extends Component {
 			    improve the design, but the actual content of the prototype will not be used beyond
 			    the usability testing.
 			  </p>
-			  <Anchor href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M6-JacquotBryan.pdf" label="Presentation Slides (pdf)" primary={true} />
+			  <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M6-JacquotBryan.pdf" label="Presentation Slides" primary={true} />
 			</Section>
     );
   }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Section from 'grommet/components/Section';
 import Anchor from 'grommet/components/Anchor';
+import Pdf from 'grommet/components/icons/base/DocumentPdf';
 
 export default class Evaluation extends Component {
 
@@ -20,7 +21,7 @@ export default class Evaluation extends Component {
           prototypes, I find the most value in paper prototypes when I can interact with
           the test subject in person.
         </p>
-        <Anchor href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M5-JacquotBryan.pdf" label="Evaluation Results (pdf)" primary={true} />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M5-JacquotBryan.pdf" label="Evaluation Results" primary={true} />
       </Section>
     );
   }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Section from 'grommet/components/Section';
 import Anchor from 'grommet/components/Anchor';
+import Pdf from 'grommet/components/icons/base/DocumentPdf';
 
 export default class Prototype extends Component {
 
@@ -23,8 +24,9 @@ export default class Prototype extends Component {
     	    colors, they can only pick from a few colors as prototyping screens for every
     	    possible color is not practical.
     	  </p>
-    	  <Anchor href="https://invis.io/ZG6CFJX69" label="Interactive Prototype" primary={true} target="_blank" />
-    	  <Anchor href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M4-JacquotBryan.pdf" label="Prototype Document (pdf)" primary={true} />
+    	  <Anchor href="https://invis.io/ZG6CFJX69" label="Online Prototype" primary={true} target="_blank" />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M4-JacquotBryan-Prototype.pdf" label="Offline Prototype" primary={true} />
+    	  <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M4-JacquotBryan.pdf" label="Prototype Description" primary={true} />
     	</Section>
     );
   }

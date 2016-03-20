@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Section from 'grommet/components/Section';
 import Anchor from 'grommet/components/Anchor';
+import Pdf from 'grommet/components/icons/base/DocumentPdf';
 
 export default class UserNeeds extends Component {
 
@@ -25,7 +26,7 @@ export default class UserNeeds extends Component {
           uncovering usability issues” and “designers should choose whichever medium and
           level of fidelity suit their practical needs and design goals.” (Walker, 2002, p661).
         </p>
-        <Anchor href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M2-JacquotBryan.pdf" label="User Needs Document (pdf)" primary={true} />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M2-JacquotBryan.pdf" label="User Needs Document" primary={true} />
       </Section>
     );
   }
