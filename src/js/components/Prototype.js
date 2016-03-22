@@ -15,7 +15,7 @@ export default class Prototype extends Component {
     	<Section>
     	  <h2>Prototype</h2>
     	  <p>
-        I created the Grommet Theme Designer low-fidelity prototype using the
+        I created the Grommet Theme Designer low-fidelity prototype using the&nbsp;
         <a href="https://balsamiq.com">Balsamiq</a> digital prototyping tool.
         Balsamiq is a tool I’ve used for several years, and I’m familiar with
         its interface and capabilities.  As Walker et al’s research showed,
