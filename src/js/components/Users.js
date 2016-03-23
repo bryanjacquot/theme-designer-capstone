@@ -65,7 +65,7 @@ export default class Users extends Component {
         stuff until started working here [Hewlett Packard Enterprise]” (PS3, 2016).
         </p>
         <p>
-        The second umet user need I uncovered was the lack of tooling and control for
+        The second unmet user need I uncovered was the lack of tooling and control for
         element styling.  There is a strong tendency for designers to defer element
         styling to developers.  PS2 described the, “major influence [on element styling]
         is from technology.  In fact, 80-90% of element styling is driven by
