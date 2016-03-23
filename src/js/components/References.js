@@ -10,7 +10,6 @@ export default class References extends Component {
   render () {
     return (
       <Section>
-        <a name="references" />
         <h2>References</h2>
         <p className="hangingindent">
           Burchett, K. (2002). <i>Color harmony</i>. Color Research & Application, 27(1), 28-31.

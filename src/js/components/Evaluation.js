@@ -226,7 +226,7 @@ export default class Evaluation extends Component {
           must be resolved before implementing the design, but the user testing demonstrated
           the potential of the Grommet Theme Designer.
           </p>
-        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M5-JacquotBryan.pdf" label="Evaluation Results" primary={true} />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M5-JacquotBryan.pdf" label="Evaluation Results" primary={true} />
       </Section>
     );
   }

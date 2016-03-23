@@ -44,8 +44,8 @@ export default class Prototype extends Component {
         </div>
         <Box pad={{ vertical: 'medium', horizontal: 'none' }}>
     	    <Anchor href="https://invis.io/ZG6CFJX69" label="Online Prototype" primary={true} target="_blank" />
-          <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M4-JacquotBryan-Prototype.pdf" label="Offline Prototype" primary={true} />
-    	    <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M4-JacquotBryan.pdf" label="Prototype Description" primary={true} />
+          <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M4-JacquotBryan-Prototype.pdf" label="Offline Prototype" primary={true} />
+    	    <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M4-JacquotBryan.pdf" label="Prototype Description" primary={true} />
         </Box>
     	</Section>
     );

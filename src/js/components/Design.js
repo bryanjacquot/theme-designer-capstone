@@ -98,7 +98,7 @@ export default class Design extends Component {
             </ol>
           </li>
         </ol>
-        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M3-JacquotBryan.pdf" label="Design Document" primary={true} />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M3-JacquotBryan.pdf" label="Design Document" primary={true} />
       </Section>
     );
   }

@@ -15,7 +15,7 @@ export default class Presentation extends Component {
 			<Section>
 			  <h2>Presentation</h2>
 			  <TBD />
-			  <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M6-JacquotBryan.pdf" label="Presentation Slides" primary={true} />
+			  <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M6-JacquotBryan.pdf" label="Presentation Slides" primary={true} />
 			</Section>
     );
   }

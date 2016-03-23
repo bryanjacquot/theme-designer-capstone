@@ -93,7 +93,7 @@ export default class Users extends Component {
         in Axure is not designed to be used by developers beyond the visual and
         interaction design.
         </p>
-        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M2-JacquotBryan.pdf" label="User Needs Document" primary={true} />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M2-JacquotBryan.pdf" label="User Needs Document" primary={true} />
       </Section>
     );
   }

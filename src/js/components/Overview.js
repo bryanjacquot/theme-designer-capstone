@@ -52,7 +52,7 @@ export default class Overview extends Component {
         <i>HCI Design, Implementation and Implications</i> is the capstone course for the online degree program.
         </p>
         <p>
-        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/blob/master/docs/M1-JacquotBryan.pdf" label="Proposal Document" primary={true} />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M1-JacquotBryan.pdf" label="Proposal Document" primary={true} />
         </p>
       </Section>
     );
