@@ -21,12 +21,12 @@ export default class Details extends Component {
     this._onMenuClick = this._onMenuClick.bind(this);
     this._onPopState = this._onPopState.bind(this);
 
-    let page = window.location.pathname;
+    let page = location.hash;
     if ( ! page ) {
       page = "overview";
     } else {
       // Get just the trailing location name
-      page = page.split(/[\\/]/).pop();
+      page = page.slice(1);
     }
 
     this.state = {
@@ -56,7 +56,7 @@ export default class Details extends Component {
   }
 
   _onMenuClick (page) {
-    history.pushState({page: page}, page + " - HCI598 Capstone Project", "/" + page);
+    history.pushState({page: page}, page + " - HCI598 Capstone Project", "#" + page);
     this.setState({page: page});
   }
 
