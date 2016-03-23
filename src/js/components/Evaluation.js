@@ -95,7 +95,12 @@ export default class Evaluation extends Component {
           <p>
           The Net Promoter Score (NPS) for the Grommet Theme Designer was measured in the concluding survey
           of the usability study.  It was calculated to be 34.  The maximum value for NPS is 100 while
-          the minimum is -100.
+          the minimum is -100.  Net Promoter Score is a benchmark used across industries to measure
+          customer loyalty.  It measures the extent to which customers and users will be either detractors,
+          neutral, or promoters of your product, service, or brand.  The Grommet Theme Designer's score of
+          34 is a favorable score.  For comparison, the “Software & Apps” industry has a Net Promoter Score
+          of 19 (Net Promoter Benchmarking, 2016).  This score indicates when the solution is functional,
+          there is strong likelihood users will promote it within their spheres of influence.
           </p>
           <h4>User Satisfaction</h4>
           <p>
