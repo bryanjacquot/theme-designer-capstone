@@ -3,6 +3,8 @@ import Section from 'grommet/components/Section';
 import Anchor from 'grommet/components/Anchor';
 import Meter from 'grommet/components/Meter';
 import Chart from 'grommet/components/Chart';
+import Tiles from 'grommet/components/Tiles';
+import Tile from 'grommet/components/Tile';
 import Pdf from 'grommet/components/icons/base/DocumentPdf';
 
 export default class Evaluation extends Component {
@@ -56,38 +58,46 @@ export default class Evaluation extends Component {
         <h3>Initial Accessibility Awareness</h3>
           <h4>When designing a theme, I take accessibility into account.</h4>
           <figure>
-            <Chart series={[
-              {
-                "values": [[6, 5], [5, 2], [4, 4], [3, 3], [2, 5], [1, 3]],
-                "colorIndex": "graph-1"
-              }
-            ]} type="bar" xAxis={{ "placement": "bottom",
-            "data": [
-              {"label": "U6", "value": 6},
-              {"label": "u5", "value": 5},
-              {"label": "U4", "value": 4},
-              {"label": "U3", "value": 3},
-              {"label": "U2", "value": 2},
-              {"label": "U1", "value": 1}
-            ]}} legend={{}} size="large" />
+            <Tiles fill={false} selectable={false} size="large">
+              <Tile>
+                <Chart series={[
+                  {
+                    "values": [[6, 5], [5, 2], [4, 4], [3, 3], [2, 5], [1, 3]],
+                    "colorIndex": "graph-1"
+                  }
+                ]} type="bar" xAxis={{ "placement": "bottom",
+                "data": [
+                  {"label": "U6", "value": 6},
+                  {"label": "u5", "value": 5},
+                  {"label": "U4", "value": 4},
+                  {"label": "U3", "value": 3},
+                  {"label": "U2", "value": 2},
+                  {"label": "U1", "value": 1}
+                ]}} legend={{}} size="large" />
+              </Tile>
+            </Tiles>
             <figcaption>Figure 1. Takes accessibility into account <i>(0 = strongly disagree, 5 = strongly agree)</i></figcaption>
           </figure>
           <h4>Of the themes I've created, most comply with international accessibility standards.</h4>
           <figure>
-            <Chart series={[
-              {
-                "values": [[6, 4], [5, 3], [4, 4], [3, 2], [2, 5], [1, 3]],
-                "colorIndex": "graph-1"
-              }
-            ]} type="bar" xAxis={{ "placement": "bottom",
-            "data": [
-              {"label": "U6", "value": 6},
-              {"label": "u5", "value": 5},
-              {"label": "U4", "value": 4},
-              {"label": "U3", "value": 3},
-              {"label": "U2", "value": 2},
-              {"label": "U1", "value": 1}
-            ]}} legend={{ "position": "overlay" }} size="large" />
+            <Tiles fill={false} selectable={false} size="large">
+              <Tile>
+                <Chart series={[
+                  {
+                    "values": [[6, 4], [5, 3], [4, 4], [3, 2], [2, 5], [1, 3]],
+                    "colorIndex": "graph-1"
+                  }
+                ]} type="bar" xAxis={{ "placement": "bottom",
+                "data": [
+                  {"label": "U6", "value": 6},
+                  {"label": "u5", "value": 5},
+                  {"label": "U4", "value": 4},
+                  {"label": "U3", "value": 3},
+                  {"label": "U2", "value": 2},
+                  {"label": "U1", "value": 1}
+                ]}} legend={{ "position": "overlay" }} size="large" />
+              </Tile>
+            </Tiles>
             <figcaption>Figure 2. Would comply with standards <i>(0 = strongly disagree, 5 = strongly agree)</i></figcaption>
           </figure>
           <h3>Concluding Survey Results</h3>
@@ -111,38 +121,46 @@ export default class Evaluation extends Component {
           </p>
           <h4>How satisfied are you with the interface you just used?</h4>
           <figure>
-            <Chart series={[
-              {
-                "values": [[6, 4], [5, 4], [4, 4], [3, 4], [2, 4], [1, 5]],
-                "colorIndex": "graph-1"
-              }
-            ]} type="bar" xAxis={{ "placement": "bottom",
-            "data": [
-              {"label": "U6", "value": 6},
-              {"label": "u5", "value": 5},
-              {"label": "U4", "value": 4},
-              {"label": "U3", "value": 3},
-              {"label": "U2", "value": 2},
-              {"label": "U1", "value": 1}
-            ]}} legend={{ "position": "overlay" }} size="large" />
+            <Tiles fill={false} selectable={false} size="large">
+              <Tile>
+                <Chart series={[
+                  {
+                    "values": [[6, 4], [5, 4], [4, 4], [3, 4], [2, 4], [1, 5]],
+                    "colorIndex": "graph-1"
+                  }
+                ]} type="bar" xAxis={{ "placement": "bottom",
+                "data": [
+                  {"label": "U6", "value": 6},
+                  {"label": "u5", "value": 5},
+                  {"label": "U4", "value": 4},
+                  {"label": "U3", "value": 3},
+                  {"label": "U2", "value": 2},
+                  {"label": "U1", "value": 1}
+                ]}} legend={{ "position": "overlay" }} size="large" />
+              </Tile>
+            </Tiles>
             <figcaption>Figure 3. Satisfied with the interface <i>(0 = very disatisfied, 5 = very satisfied)</i></figcaption>
           </figure>
           <h4>How well does this interface meet your needs?</h4>
           <figure>
-            <Chart series={[
-              {
-                "values": [[6, 3], [5, 4], [4, 4], [3, 3], [2, 4], [1, 4]],
-                "colorIndex": "graph-1"
-              }
-            ]} type="bar" xAxis={{ "placement": "bottom",
-            "data": [
-              {"label": "U6", "value": 6},
-              {"label": "u5", "value": 5},
-              {"label": "U4", "value": 4},
-              {"label": "U3", "value": 3},
-              {"label": "U2", "value": 2},
-              {"label": "U1", "value": 1}
-            ]}} legend={{ "position": "overlay" }} size="large" max={5} />
+            <Tiles fill={false} selectable={false} size="large">
+              <Tile>
+                <Chart series={[
+                  {
+                    "values": [[6, 3], [5, 4], [4, 4], [3, 3], [2, 4], [1, 4]],
+                    "colorIndex": "graph-1"
+                  }
+                ]} type="bar" xAxis={{ "placement": "bottom",
+                "data": [
+                  {"label": "U6", "value": 6},
+                  {"label": "u5", "value": 5},
+                  {"label": "U4", "value": 4},
+                  {"label": "U3", "value": 3},
+                  {"label": "U2", "value": 2},
+                  {"label": "U1", "value": 1}
+                ]}} legend={{ "position": "overlay" }} size="large" max={5} />
+              </Tile>
+            </Tiles>
             <figcaption>Figure 4. Meets needs <i>(0 = not at all, 5 = completely)</i></figcaption>
           </figure>
           <h4>User Friendliness</h4>
@@ -162,40 +180,48 @@ export default class Evaluation extends Component {
           <h4>Compared to previous interfaces I've used, using this interface I would be more
           likely to take accessibility into account.</h4>
           <figure>
-            <Chart series={[
-              {
-                "values": [[6, 4], [5, 5], [4, 5], [3, 5], [2, 4], [1, 4]],
-                "colorIndex": "graph-1"
-              }
-            ]} type="bar" xAxis={{ "placement": "bottom",
-            "data": [
-              {"label": "U6", "value": 6},
-              {"label": "u5", "value": 5},
-              {"label": "U4", "value": 4},
-              {"label": "U3", "value": 3},
-              {"label": "U2", "value": 2},
-              {"label": "U1", "value": 1}
-            ]}} legend={{}} size="large" />
+            <Tiles fill={false} selectable={false} size="large">
+              <Tile>
+                <Chart series={[
+                  {
+                    "values": [[6, 4], [5, 5], [4, 5], [3, 5], [2, 4], [1, 4]],
+                    "colorIndex": "graph-1"
+                  }
+                ]} type="bar" xAxis={{ "placement": "bottom",
+                "data": [
+                  {"label": "U6", "value": 6},
+                  {"label": "u5", "value": 5},
+                  {"label": "U4", "value": 4},
+                  {"label": "U3", "value": 3},
+                  {"label": "U2", "value": 2},
+                  {"label": "U1", "value": 1}
+                ]}} legend={{}} size="large" />
+              </Tile>
+            </Tiles>
             <figcaption>Figure 5. Would take accessibility into account <i>(0 = strongly disagree, 5 = strongly agree)</i></figcaption>
           </figure>
           <h4>Compared to previous interfaces I've used, using this interface I would be
           more likely to create themes that comply with international accessibility
           standards.</h4>
           <figure>
-            <Chart series={[
-              {
-                "values": [[6, 4], [5, 5], [4, 5], [3, 5], [2, 4], [1, 4]],
-                "colorIndex": "graph-1"
-              }
-            ]} type="bar" xAxis={{ "placement": "bottom",
-            "data": [
-              {"label": "U6", "value": 6},
-              {"label": "u5", "value": 5},
-              {"label": "U4", "value": 4},
-              {"label": "U3", "value": 3},
-              {"label": "U2", "value": 2},
-              {"label": "U1", "value": 1}
-            ]}} legend={{ "position": "overlay" }} size="large" />
+            <Tiles fill={false} selectable={false} size="large">
+              <Tile>
+                <Chart series={[
+                  {
+                    "values": [[6, 4], [5, 5], [4, 5], [3, 5], [2, 4], [1, 4]],
+                    "colorIndex": "graph-1"
+                  }
+                ]} type="bar" xAxis={{ "placement": "bottom",
+                "data": [
+                  {"label": "U6", "value": 6},
+                  {"label": "u5", "value": 5},
+                  {"label": "U4", "value": 4},
+                  {"label": "U3", "value": 3},
+                  {"label": "U2", "value": 2},
+                  {"label": "U1", "value": 1}
+                ]}} legend={{ "position": "overlay" }} size="large" />
+              </Tile>
+            </Tiles>
             <figcaption>Figure 6. Would comply with standards <i>(0 = strongly disagree, 5 = strongly agree)</i></figcaption>
           </figure>
           <h3>Discussion</h3>
