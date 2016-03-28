@@ -258,6 +258,8 @@ export default class Evaluation extends Component {
           the potential of the Grommet Theme Designer.
           </p>
         <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M5-JacquotBryan.pdf" label="Evaluation Results" primary={true} />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M5-JacquotBryan-InitialSurveyRawData.pdf" label="Initial Survey Raw Data" primary={true} />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M5-JacquotBryan-ConcludingSurveyRawData.pdf" label="Concluding Survey Raw Data" primary={true} />
       </Section>
     );
   }

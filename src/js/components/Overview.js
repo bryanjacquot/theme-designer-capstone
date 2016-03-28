@@ -47,7 +47,8 @@ export default class Overview extends Component {
         </p>
         <p>
         This project was authored by Bryan Jacquot as part of a Master of Science
-        degree in <a href="http://www.vrac.iastate.edu/hci/">Human-Computer Interaction</a>.&nbsp;
+        degree in <a href="http://www.vrac.iastate.edu/hci/">Human-Computer Interaction</a> from&nbsp;
+        <a href="http://iastate.edu">Iowa State University</a>.&nbsp;
         <a href="https://courses.elo.iastate.edu/HCI/598/XE/2016/spring/overview">HCI 598 XE</a>&nbsp;
         <i>HCI Design, Implementation and Implications</i> is the capstone course for the online degree program.
         </p>

@@ -94,6 +94,7 @@ export default class Users extends Component {
         interaction design.
         </p>
         <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M2-JacquotBryan.pdf" label="User Needs Document" primary={true} />
+        <Anchor icon={<Pdf/>} href="https://github.com/bryanjacquot/theme-designer-capstone/raw/master/docs/M2-JacquotBryan-SurveyRawData.pdf" label="User Survey Raw Data" primary={true} />
       </Section>
     );
   }
